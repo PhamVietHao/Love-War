@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "Sakamakha_The_Feline_Bard.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "Sakamakha_The_Feline_Bard@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "Sakamakha_The_Feline_Bard@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

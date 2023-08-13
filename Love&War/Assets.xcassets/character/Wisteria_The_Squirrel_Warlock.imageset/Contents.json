@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "Wisteria_The_Squirrel_Warlock.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "Wisteria_The_Squirrel_Warlock@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "Wisteria_The_Squirrel_Warlock@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

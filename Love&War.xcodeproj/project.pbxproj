@@ -7,18 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0470AFE42A86039C00EBDFBD /* cardHand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0470AFE32A86039C00EBDFBD /* cardHand.swift */; };
 		0487FFAA2A835E400067D21F /* Love_WarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487FFA92A835E400067D21F /* Love_WarApp.swift */; };
 		0487FFAC2A835E400067D21F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487FFAB2A835E400067D21F /* ContentView.swift */; };
 		0487FFAE2A835E410067D21F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0487FFAD2A835E410067D21F /* Assets.xcassets */; };
 		0487FFB12A835E410067D21F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0487FFB02A835E410067D21F /* Preview Assets.xcassets */; };
+		0487FFBB2A8360140067D21F /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487FFBA2A8360140067D21F /* Character.swift */; };
+		0487FFBD2A8360F20067D21F /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487FFBC2A8360F20067D21F /* ModelData.swift */; };
+		0487FFBF2A8361830067D21F /* characters.json in Resources */ = {isa = PBXBuildFile; fileRef = 0487FFBE2A8361830067D21F /* characters.json */; };
+		0487FFC22A83682B0067D21F /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487FFC12A83682B0067D21F /* CardModel.swift */; };
+		0487FFC42A836BB70067D21F /* cardImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487FFC32A836BB70067D21F /* cardImage.swift */; };
+		0487FFC82A8393290067D21F /* cardBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487FFC72A8393290067D21F /* cardBackground.swift */; };
+		0487FFCB2A83F3440067D21F /* cardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487FFCA2A83F3440067D21F /* cardList.swift */; };
+		0487FFCD2A83F57C0067D21F /* cardColumn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487FFCC2A83F57C0067D21F /* cardColumn.swift */; };
+		049BEE162A87D21300FDA4B8 /* LoveWarGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049BEE152A87D21300FDA4B8 /* LoveWarGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0470AFE32A86039C00EBDFBD /* cardHand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardHand.swift; sourceTree = "<group>"; };
 		0487FFA62A835E400067D21F /* Love&War.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Love&War.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0487FFA92A835E400067D21F /* Love_WarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Love_WarApp.swift; sourceTree = "<group>"; };
 		0487FFAB2A835E400067D21F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0487FFAD2A835E410067D21F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0487FFB02A835E410067D21F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0487FFBA2A8360140067D21F /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		0487FFBC2A8360F20067D21F /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		0487FFBE2A8361830067D21F /* characters.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = characters.json; sourceTree = "<group>"; };
+		0487FFC12A83682B0067D21F /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		0487FFC32A836BB70067D21F /* cardImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardImage.swift; sourceTree = "<group>"; };
+		0487FFC72A8393290067D21F /* cardBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardBackground.swift; sourceTree = "<group>"; };
+		0487FFCA2A83F3440067D21F /* cardList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardList.swift; sourceTree = "<group>"; };
+		0487FFCC2A83F57C0067D21F /* cardColumn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardColumn.swift; sourceTree = "<group>"; };
+		049BEE152A87D21300FDA4B8 /* LoveWarGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveWarGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +52,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0470AFE52A86386A00EBDFBD /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				049BEE152A87D21300FDA4B8 /* LoveWarGame.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
 		0487FF9D2A835E400067D21F = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +79,10 @@
 		0487FFA82A835E400067D21F /* Love&War */ = {
 			isa = PBXGroup;
 			children = (
+				0470AFE52A86386A00EBDFBD /* Game */,
+				0487FFC92A83F3320067D21F /* List */,
+				0487FFC02A8368130067D21F /* Card */,
+				0487FFB72A835FC90067D21F /* Model */,
 				0487FFA92A835E400067D21F /* Love_WarApp.swift */,
 				0487FFAB2A835E400067D21F /* ContentView.swift */,
 				0487FFAD2A835E410067D21F /* Assets.xcassets */,
@@ -65,6 +97,36 @@
 				0487FFB02A835E410067D21F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0487FFB72A835FC90067D21F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0487FFBE2A8361830067D21F /* characters.json */,
+				0487FFBA2A8360140067D21F /* Character.swift */,
+				0487FFBC2A8360F20067D21F /* ModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0487FFC02A8368130067D21F /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				0487FFC12A83682B0067D21F /* CardModel.swift */,
+				0487FFC32A836BB70067D21F /* cardImage.swift */,
+				0487FFC72A8393290067D21F /* cardBackground.swift */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
+		0487FFC92A83F3320067D21F /* List */ = {
+			isa = PBXGroup;
+			children = (
+				0487FFCA2A83F3440067D21F /* cardList.swift */,
+				0487FFCC2A83F57C0067D21F /* cardColumn.swift */,
+				0470AFE32A86039C00EBDFBD /* cardHand.swift */,
+			);
+			path = List;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +187,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0487FFBF2A8361830067D21F /* characters.json in Resources */,
 				0487FFB12A835E410067D21F /* Preview Assets.xcassets in Resources */,
 				0487FFAE2A835E410067D21F /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +200,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0487FFBB2A8360140067D21F /* Character.swift in Sources */,
+				0470AFE42A86039C00EBDFBD /* cardHand.swift in Sources */,
+				0487FFC82A8393290067D21F /* cardBackground.swift in Sources */,
+				0487FFBD2A8360F20067D21F /* ModelData.swift in Sources */,
+				0487FFCD2A83F57C0067D21F /* cardColumn.swift in Sources */,
+				0487FFCB2A83F3440067D21F /* cardList.swift in Sources */,
 				0487FFAC2A835E400067D21F /* ContentView.swift in Sources */,
+				0487FFC42A836BB70067D21F /* cardImage.swift in Sources */,
+				049BEE162A87D21300FDA4B8 /* LoveWarGame.swift in Sources */,
 				0487FFAA2A835E400067D21F /* Love_WarApp.swift in Sources */,
+				0487FFC22A83682B0067D21F /* CardModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
